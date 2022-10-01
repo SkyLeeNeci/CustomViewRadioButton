@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomRadioGroup">
+        <attr name="radioButton" format="string" />
+        <attr name="radioButton2" format="string" />
+        <attr name="radioButton3" format="string" />
+        <attr name="radioButton4" format="string" />
+    </declare-styleable>
+
+</resources>

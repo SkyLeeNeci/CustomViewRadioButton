@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <test.karpenko.customviewradiobutton.CustomRadioGroup
+        android:id="@+id/customRadioGroup"
+        app:radioButton="Radio1"
+        app:radioButton2="Radio2"
+        app:radioButton3="Radio3"
+        app:radioButton4="Radio4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </test.karpenko.customviewradiobutton.CustomRadioGroup>
+
+</LinearLayout>
