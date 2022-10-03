@@ -8,4 +8,9 @@
         <attr name="radioButton4" format="string" />
     </declare-styleable>
 
+    <declare-styleable name="CustomButton">
+        <attr name="textViewText" format="string"/>
+        <attr name="src" format="integer"/>
+    </declare-styleable>
+
 </resources>

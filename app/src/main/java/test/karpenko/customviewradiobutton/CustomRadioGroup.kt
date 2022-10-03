@@ -18,7 +18,6 @@ class CustomRadioGroup @JvmOverloads constructor(
     attrs: AttributeSet? = null,
     defStyleAttr: Int = 0
 ): FrameLayout(context, attrs, defStyleAttr){
-    private val root: ConstraintLayout by lazy { this.findViewById(R.id.constraintLayout) }
     private val radioButton: RadioButton by lazy { this.findViewById(R.id.radioButton) }
     private val radioButton2: RadioButton by lazy { this.findViewById(R.id.radioButton2) }
     private val radioButton3: RadioButton by lazy { this.findViewById(R.id.radioButton3) }

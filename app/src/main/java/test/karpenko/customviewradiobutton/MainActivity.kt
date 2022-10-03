@@ -2,7 +2,6 @@ package test.karpenko.customviewradiobutton
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
 import test.karpenko.customviewradiobutton.databinding.ActivityMainBinding
 
@@ -29,5 +28,7 @@ class MainActivity : AppCompatActivity() {
             binding.customRadioGroup.setTextRadioButtonFour("4")
         }
 
+        binding.button.setText("Settted Text")
+        binding.button.setImage(R.drawable.ic_bus_svgrepo_com)
     }
 }
